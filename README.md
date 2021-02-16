@@ -179,6 +179,8 @@ You will use this terminal to install and run the Greengrass core.
 
 ## 5. Install Greengrass, register IoT thing and connect to Greengrass
 
+
+
 ### 5.1. Provision the Greengrass group and core
 
 The Greengrass group allows you to cluster resources together which need to communicate with one another. For example, multiple sensors on your factory floor, or IoT devices in your home may constitute a Greengrass group. By provisioning this group, you can also create local lambda functions which can run even when the FE goes offline. This is crucial for heavy industrial environments where consistent internet access isn't always a given.
